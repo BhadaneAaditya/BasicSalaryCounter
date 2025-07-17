@@ -33,5 +33,5 @@ int main()
 	{
 	    cout<<"The salary credits amount ="<<total_amount<<endl;	
 	}
-	cout<<"Data Stored Successfully";
+	cout<<"Data Showed Successfully";
 }
