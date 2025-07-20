@@ -4,9 +4,11 @@ using namespace std;
 
 int main()
 {	
+	#Declare
  	int id,half_day,full_day;
 	float salary,bonus,fund,total_amount,total_cutoff;
-	
+
+	#AcceptingTheData
 	cout<<"Kindly Enter the Id=";
 	cin>>id;
 	cout<<"Kindly Enter the Salary=";
@@ -19,7 +21,7 @@ int main()
 	cin>>half_day;
 	cout<<"Kindly Enter Fund amount=";
 	cin>>fund;
-	
+	#Logic
 	salary=salary+bonus;
 	total_cutoff=(1500*full_day)+(750*half_day)+fund;
 	
